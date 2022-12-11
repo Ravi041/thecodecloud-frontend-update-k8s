@@ -5,7 +5,7 @@ pipeline {
         stage('Git Checkout') {
             steps {
             script{
-                git branch: 'main', credentialsId: 'GitHub', url: 'https://github.com/Ravi041/thecodecloud-frontend-update-k8s.git'  
+                git branch: 'main', credentialsId: '13c60fcc-1481-4fc8-b6f9-4b65fa3c07f5', url: 'https://github.com/Ravi041/thecodecloud-frontend-update-k8s.git'  
                 }  
             }
         }
