@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: container-frontend
-        image: 260205721048.dkr.ecr.us-east-1.amazonaws.com/devopsodia-frontendapp:7
+        image: 260205721048.dkr.ecr.us-east-1.amazonaws.com/devopsodia-frontendapp:10
         ports:
         - containerPort: 80
 ---
